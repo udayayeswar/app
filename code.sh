@@ -23,8 +23,8 @@ git clone https://github.com/ChaitanyaChandra/app.git
 cd app/
 cat package.sh | bash
 
-db_user=chaitu
-db_pass=123Chaitu
+db_user=udaya
+db_pass=udaya123
 
 echo Environment="MONGO_ENDPOINT=mongodb+srv://$db_user:$db_pass@cluster0.wdtudby.mongodb.net/login-app-db?retryWrites=true&w=majority" >> files/spec.service
 cp files/spec.service /etc/systemd/system/
