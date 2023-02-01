@@ -26,7 +26,7 @@ cat package.sh | bash
 db_user=chaitu
 db_pass=123Chaitu
 
-echo Environment="MONGO_ENDPOINT=mongodb+srv://$db_user:$db_pass@cluster0.wdtudby.mongodb.net/login-app-db?retryWrites=true&w=majority" >> files/spec.service
+echo Environment="MONGO_ENDPOINT=mongodb+srv://$db_user:$db_pass@cluster0.nggvzyx.mongodb.net/login-app-db?retryWrites=true&w=majority" >> files/spec.service
 cp files/spec.service /etc/systemd/system/
 systemctl start spec
 
