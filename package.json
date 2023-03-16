@@ -1,14 +1,14 @@
 {
-    "name": "spec",
+    "name": "spec application",
     "version": "1.0.0",
-    "description": "Capture Leads",
+    "description": "nodejs application with mongodb database",
     "main": "index.js",
     "scripts": {
       "start": "node index.js"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/ChaitanyaChandra/app.git"
+      "url": "https://github.com/ChaitanyaChandra/app.git"
     },
     "author": "Chaitanya Chandra",
     "license": "ISC",
