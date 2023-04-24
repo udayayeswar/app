@@ -1,0 +1,3 @@
+@Library('sample-shared-lib')
+
+nodejs()
